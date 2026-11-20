@@ -10,26 +10,58 @@
 }
 @font-face {
     font-family: "sub";
-    src: url(../fontes/subtitulo.ttf) format(truetype);
+    src: url(../fontes/italico.ttf) format(truetype);
+}
+@font-face {
+    font-family: "morioh";
+    src: url(../fontes/morioh.ttf) format(truetype);
 }
 
 * {padding: 0; margin: 0;}
 
 :root {
     --rosa: #F22998;
-    --rosaclaro: #F2AECE;
     --vermelho: #F22727;
+    --rosaclaro: #F2AECE;
+    --marrom: #423836;
+    --musgo: #A69544;
 }
 
-#titulo-1 {
-    font-family: jojo;
-    background: linear-gradient(to bottom, #F22998, #F2AECE);
-    -webkit-background-clip: text;
-    color: transparent; 
+header {
+    display: flex;
+    background-image:linear-gradient(to bottom, transparent 80%, #423836), url("../imagens/jornal/banner-btd.jfif");
+    background-size: cover;
+    height: 200px;
+
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-around;
 }
 
-nav > a {
+header > h1 {
+    font-family: morioh;
+    font-size: 3em;
+    color: var(--musgo);
+    text-shadow: 0 0 5px black,
+    0 0 5px black,
+    0 0 5px black,
+    0 0 5px black;
+}
+
+menu > nav {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+
+menu > nav > a {
+    background-color: var(--marrom);
+    box-shadow: inset 0 0 5px black;
+    padding: 0 15px;
+    border: 3px solid black;
+    border-radius: 3px;
     font-family: sub;
+    font-size: 20px;
+    color: var(--musgo);
     text-decoration: none;
-    color: var(--vermelho);
 }
