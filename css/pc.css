@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+@media (min-width: 700px) and (max-width: 1200px) {
+    header {
+        background: linear-gradient(to bottom, transparent 50%, var(--kira2)), url(../imagens/jornal/banner-morioh.jpg) center / 100% no-repeat;
+    border-top: 15px solid black;
+    }
+}
