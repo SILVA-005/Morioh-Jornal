@@ -1,8 +1,24 @@
 @charset "UTF-8";
 
 @media (min-width: 700px) and (max-width: 1200px) {
-    header {
-        background: linear-gradient(to bottom, transparent 50%, var(--kira2)), url(../imagens/jornal/banner-morioh.jpg) center / 100% no-repeat;
-    border-top: 15px solid black;
-    }
+header {
+    height: 160px;
+    background: linear-gradient(to bottom, transparent 50%, var(--kira2)), url(../imagens/jornal/banner-morioh.jpg) center / 100% 100% no-repeat;
+}
+
+header > h1 {font-size: 3em;}
+
+menu nav {height: 10vh;}
+
+.barra li {
+    flex: 1 1 250px;
+    margin: 0 1vw;
+    container-type: inline-size;}
+
+.barra a {text-indent: 16cqi;}
+
+
+
+
+
 }

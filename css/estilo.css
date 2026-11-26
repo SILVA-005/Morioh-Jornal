@@ -31,7 +31,6 @@ header {
     position: relative;
     height: 220px;
     background: linear-gradient(to bottom, transparent 50%, var(--kira2)), url(../imagens/jornal/banner-mobile.png) center / 100% no-repeat;
-    border-top: 15px solid black;
 
     justify-items: center;
     align-content: end;
@@ -49,7 +48,7 @@ menu {position: relative;}
 
 menu nav {
     height: 6vh;
-    background-color: black;
+    background-color: var(--kira2);
 
     display: flex;
     align-items: center;
@@ -68,21 +67,24 @@ menu nav {
 
 .lanche img:hover {
     filter: drop-shadow(0 0 8px white);
-    transition-duration: 500ms;
+    transition-duration: 300ms;
 }
 
 .barra {
     list-style: none;
 
     display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
 }
 
 .barra a {
     background: url(../imagens/continua.png) no-repeat center / 100%;
-    width: 250px;
+    filter: drop-shadow(0 0 4px white);
+    width: 100%;
     height: 60px;
     font-family: menu;
-    font-size: 15px;
+    font-size: clamp(6px, 6cqi, 15px);
     color: white;
     text-decoration: none;
     text-indent: 40px;
