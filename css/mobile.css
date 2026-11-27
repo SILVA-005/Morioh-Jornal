@@ -9,7 +9,7 @@
         top: 6vh;
         width: 100%;
         height: 58vh;
-        background: radial-gradient(transparent, black), url(../imagens/tuff.jpeg) no-repeat center top / 100% 100%;
+        background: radial-gradient(transparent, black), url(../imagens/jornal/tuff.jpeg) no-repeat center top / 100% 100%;
 
         flex-direction: column;
         align-items: center;
@@ -49,7 +49,7 @@ menu > nav {
 
 .barra {
     top: 0;
-    background: linear-gradient(to top, transparent 80%, var(--kira3)), url(../imagens/tuff2.jfif) no-repeat center / cover;
+    background: linear-gradient(to top, transparent 80%, var(--kira3)), url(../imagens/jornal/tuff2.jfif) no-repeat center / cover;
 
     flex-flow: row wrap;
     align-content: space-evenly;
