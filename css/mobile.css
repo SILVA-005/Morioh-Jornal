@@ -31,31 +31,32 @@
 
 /* TABLET E PAISAGEM*/
 
-@media (min-width: 768px) and (orientation: landscape) {
-header {
-    height: 40vh;
-    background: linear-gradient(to bottom, transparent 60%, var(--kira3)), url(../imagens/jornal/banner-morioh.jpg) center / 100% 100% no-repeat;
-}
+@media (max-width: 1024px) and (orientation: landscape) {
+    
+    header {
+        height: 40vh;
+        background: linear-gradient(to bottom, transparent 60%, var(--kira3)), url(../imagens/jornal/banner-morioh.jpg) center / 100% 100% no-repeat;
+    }
 
-header > h1 {
-    font-size: 5em;
-    padding-bottom: 20px;
-}
+    header > h1 {
+        font-size: 5em;
+        padding-bottom: 20px;
+    }
 
-menu > nav {
-    height: 0;
-    background-color: var(--kira3);
-}
+    menu > nav {
+        height: 0;
+        background-color: var(--kira3);
+    }
 
-.barra {
-    top: 0;
-    background: linear-gradient(to top, transparent 80%, var(--kira3)), url(../imagens/jornal/tuff2.jfif) no-repeat center / cover;
+    .barra {
+        top: 0;
+        background: linear-gradient(to top, transparent 80%, var(--kira3)), url(../imagens/jornal/tuff2.jfif) no-repeat center / cover;
 
-    flex-flow: row wrap;
-    align-content: space-evenly;
-}
+        flex-flow: row wrap;
+        align-content: space-evenly;
+    }
 
-.barra a {
-   width: clamp(280px, 50vw, 350px);
-}
+    .barra a {
+    width: clamp(280px, 50vw, 350px);
+    }
 }

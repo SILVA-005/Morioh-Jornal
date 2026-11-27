@@ -3,23 +3,16 @@
 /* COMPUTADOR */
 
 @media (min-width: 1024px) {
-header {
 
-}
+    header > h1 {font-size: 3em;}
 
-header > h1 {font-size: 3em;}
+    menu nav {height: 10vh;}
 
-menu nav {height: 10vh;}
+    .barra li {
+        flex: 1 1 250px;
+        margin: 0 1vw;
+        container-type: inline-size;}
 
-.barra li {
-    flex: 1 1 250px;
-    margin: 0 1vw;
-    container-type: inline-size;}
-
-.barra a {text-indent: 16cqi;}
-
-
-
-
+    .barra a {text-indent: 16cqi;}
 
 }
